@@ -1,8 +1,4 @@
-![](https://i.imgur.com/0D5106S.png)
-
-
-
-# OpenOSRS injected RuneLite for Salem
+# OpenOSRS for Salem
 
 [![Build Status](https://github.com/open-osrs/runelite/workflows/OpenOSRS%20-%20CI%20(push)/badge.svg)](https://github.com/open-osrs/runelite/actions?query=workflow%3A%22OpenOSRS+-+CI+%28push%29%22)
 [![HitCount](http://hits.dwyl.com/open-osrs/runelite.svg?style=flat)](http://hits.dwyl.com/open-osrs/runelite)
@@ -26,7 +22,7 @@ Contributions are welcome, but there should be no changes made to runelite-clien
 * Wait for it to fully load
 * You should see Gradle button on your right side by default open that tab
 * Expand OpenOSRS -> Tasks -> openosrs -> (Right click) on run -> and choose modify run configuration
-* Inside Run textarea copy and paste: `run --args="--developer-mode --debug --jav_config "https://raw.githubusercontent.com/AlterRSPS/Runelite/master/jav_config.ws"" -x checkStyleMain -x checkStyleTest -x test`
+* Inside Run textarea copy and paste: `run --args="--developer-mode --debug --jav_config "https://raw.githubusercontent.com/lowkilo/Client204/master/jav_config.ws"" -x checkStyleMain -x checkStyleTest -x test`
 * Apply and Done now couple times press on that run task in gradle tab
 * When the client fully loads you should see: `You have to change the Key(Modulus) to RSPS that you wish to connect. After it loads and you changed the Key just re-enable the Private Server plugin.`
 * Click ok and go to plugins menu search for Private Server click the settings icon enter your RSA Key that you received from your server when doing install process.
